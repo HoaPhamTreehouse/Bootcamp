@@ -1,6 +1,5 @@
 import requests
 import json
-import pandas as pd
 
 def get_API(url, header = None):
     data = requests.get(url, headers= header)
@@ -13,21 +12,14 @@ def getCoinInfo(_id):
     rsp = get_API(base_url + path_url)
     data["id"] = rsp["id"]
     data["symbol"] = rsp["symbol"]
-    data["Contract"] = rsp.get("contract_address", None)
-    data["detail_platforms"] = rsp["detail_platforms"]
-    data["image"] = rsp["image"]
-    data["Website"] = rsp["links"]["homepage"]
-    data["Explorers"] = rsp["links"]["blockchain_site"]
-    data["Community"] = rsp["links"]["chat_url"]
-    data["twitter"] = "https://twitter.com/" + rsp["links"]["twitter_screen_name"]
-    data["Source Code"] = rsp["links"]["repos_url"]["github"]
-    return rsp
+    data["Website"] = rsp["links"]["homepage"] # Website
+    data["twitter"] = "https://twitter.com/" + rsp["links"]["twitter_screen_name"] # Twitter
+    data["Source Code"] = rsp["links"]["repos_url"]["github"] # Github
+    return data
     
 if __name__ == "__main__":
-    id = "bitcoin"
-    bitcoin = getCoinInfo(id)
-    id = "arbitrum"
-    arbitrum = getCoinInfo(id)
+    id = "ethereum"
+    ethereum = getCoinInfo(id)
     print()
 
 
