@@ -1,0 +1,36 @@
+multiContract:
+    eth :  ["0xcc49997cc2a3ef4ccb86c449d2852fe81d3cbd5c", "0x67e7dfFfA35Bb998b82B60caE2D9a73fB25c63c4"]
+    bsc :  "0x461D387586Bcd572E06319B4d279F389994e7e45"
+    avax :  "0x2d68DD989E77f6EBC48128C77Bb0Aba41a46039C"
+    optimism :  "0xbcFd5aC09cf9E9e338a31F068eb4b7883f8F521C"
+    polygon :  "0x25FC73fdd66d80cB423b64cA9BEa146c62a89EE5"
+    arbitrum :  "0x25FC73fdd66d80cB423b64cA9BEa146c62a89EE5"
+    cro :  "0xffe60C13e7D32d26CD6F8188f535BCa026cBF0Cf"
+    fantom :  "0xffe60C13e7D32d26CD6F8188f535BCa026cBF0Cf"
+    klay :  "0xffe60C13e7D32d26CD6F8188f535BCa026cBF0Cf"
+    heco :  "0xffe60C13e7D32d26CD6F8188f535BCa026cBF0Cf"
+
+node_link:
+    polygon: https://polygon.w3node.com/77e0b9890e05bb7a99c511ca3fe5d0573e26797b398045a58e5b94ff704ce865/api
+    arbitrum: https://full-arbitrum.w3node.com/bcb556d86d6f90e4159166941a5fa7cb5d021ec72920c13a027cdab740c344c2/api
+    optimism: https://optimism.w3node.com/19ca9e550ba2cb129a801abf38910eadc1693ae2f1171709012fe2473a33ac35/api
+    eth: http://harvest-eth-archive.treehouse.finance
+    bsc: http://harvest-bsc-archive.treehouse.finance
+    avax: http://harvest-avax-archive.treehouse.finance/ext/bc/C/rpc
+
+API_key:
+    polygon: I2S28HBWEJE7CTCBDPHTD3DSRBYEDQ7BF8
+    arbitrum: XU3YPHFPWX55F2A8B7UJ8IKVPC3GG2DR3X
+    optimism: 48GTPBXR3GNN1296XERDZIRZ8Y7K52M3RP
+    eth: 978JTWN7MXDSZFI2TI5YTFD9GV6AXZJVJU
+    bsc: F723GDNT8KWRI7XVUNGXYC22FMDY6DKD6M
+    avax: 9M41NESN9SQNYRCWJRVW8VSDFNIXCQEC18
+
+API_io:
+    polygon: .polygonscan.com
+    arbitrum: .arbiscan.io
+    optimism: -optimistic.etherscan.io
+    eth: .etherscan.io
+    bsc: .bscscan.com
+    avax: .snowtrace.io
+    
